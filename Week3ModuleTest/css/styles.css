@@ -1,0 +1,96 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.textinbox {
+  margin-right: 20px;
+  margin-left:  20px;
+}
+
+.greybox1 {
+  background-color: gray;
+  border: 3px solid black;
+  margin: 20px; }
+
+#chicken .label {
+  color: black;
+  font-size: 20px;
+
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 9;
+  border: 9;
+  border-color: black;
+  border-style: solid;
+}
+
+.navbar-brand {
+  padding: 30px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .2;
+}
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: grey;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px; }
+
+
+@media (max-width: 767px) {
+  .greybox1 {margin-left: 75px;
+    margin-right: 75px;
+  }
+  #collapsable-nav {
+    background-color: white;
+  }
+  #nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list li {
+  border: 1px solid black;
+}
+.navbar-nav {
+    margin: 0px -15px;
+}
+#nav-list {
+    margin-top: 0px;
+}
